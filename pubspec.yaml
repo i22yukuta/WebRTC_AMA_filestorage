@@ -1,0 +1,36 @@
+name: flutter_webrtc_demo
+description: A new Flutter application.
+version: 1.2.0
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+  flutter: '>=1.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  flutter_webrtc: ^0.14.0
+  shared_preferences: ^2.0.7
+  http: ^0.13.3
+  path_provider: ^2.0.2
+
+  record: ^5.0.5
+  firebase_core: ^2.24.0
+  firebase_storage: ^11.6.5
+  firebase_auth: ^4.10.0
+
+dependency_overrides:
+  firebase_auth:
+    path: third_party/firebase_auth_local
+  record_platform_interface: 1.0.2
+  record_linux: 0.7.1
+  record_darwin: 1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

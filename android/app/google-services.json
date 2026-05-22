@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822177772062",
+    "project_id": "webrtc-for-ama-49bf3",
+    "storage_bucket": "webrtc-for-ama-49bf3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822177772062:android:b2a2815dce1a111e31340f",
+        "android_client_info": {
+          "package_name": "com.flutterwebrtcdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_5To3-sJCcJKHB4ZxB9CC3vXylctZijg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
