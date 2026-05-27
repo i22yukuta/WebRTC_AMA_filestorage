@@ -617,7 +617,7 @@ class _DataChannelSampleState extends State<DataChannelSample> {
         final isPausedAfterPlay = await _recorder.isPaused();
         debugPrint(
           'charp再生後: isRecording=$isRecordingAfterPlay isPaused=$isPausedAfterPlay assigned=$_assignedNumber',
-        );
+        ); 
         if (_startRequested && isPausedAfterPlay) {
           try {
             await _recorder.resume();
